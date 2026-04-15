@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px;
+  background: #222;
+  text-align: center;
+}
+
+.nav {
+  padding: 15px;
+  background: #000;
+  text-align: center;
+}
+
+.nav a {
+  margin: 10px;
+  color: cyan;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 40px;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 15px;
+}
+
+button {
+  padding: 12px 24px;
+  background: cyan;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+a {
+  padding: 12px 24px;
+  background: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
